@@ -1,0 +1,62 @@
+body{
+    background: tomato;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 2em;
+    margin-top: 15px;
+    vertical-align: bottom;
+}
+
+.container {
+    margin-top: -10px;
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+.results_h1 {
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.results_ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.results_ul li {
+    margin: 15px 10px;
+    font-size: 20px;
+}
+
+.results_a {
+    margin: 20px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.results_a:hover{
+    color: black;
+}
+
