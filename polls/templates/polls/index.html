@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css'%}">
 </head>
 <body>
-     <h1 id="top_h1">Questions:</h1><hr>
+<h1 id="top_h1">Questions: <small>(Click on the question to vote)</small></h1><hr>
      {% if latest_question_list %}
      <ul>
          {%for question in latest_question_list %}
